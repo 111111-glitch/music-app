@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Discovery App</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include your stylesheets and any other meta tags -->
+</head>
+<body>
+
+    <!-- Music App Page -->
+    <div class="top-rectangle">
+    <div id="music-app" class="hidden">
+        <div class="top-rectangle">
+            <img src="images/1920291-200.png" alt="app logo">
+            <input type="text" id="searchInput" placeholder="What do you want to listen to?">
+            <button onclick="search()"> <!-- Corrected the function name to "search()" -->
+                <img src="images/search-icon-255x256-pucec0zs.png" alt="search icon">
+            </button> 
+        </div>
+        <div class="lower-rectangle">
+        <p>WELCOME!</p>
+        </div>
+    </div>
+        <div id="searchResults">
+            <!-- Display search results here -->
+        </div>
+
+        <!-- Core features: Music Track Information, Play Button, Like/Save Button, Artist Information -->
+        <div class="bottom-rectangle">
+            <div id="playButton" class="button" onclick="togglePlayPause()">
+                <img src="images/142457.png" alt="Play Icon">
+            </div>
+        
+            <div id="pauseButton" class="button" onclick="togglePlayPause()" style="display: none;">
+                <img src="images/243705.png" alt="Pause Icon">
+            </div>
+
+            <div id="previousButton" class="control-button" onclick="playPreviousSong()">
+                <img src="images/6002fc1f51c2ec00048c6c7c.png" alt="">
+            </div>
+            <div id="nextButton" class="control-button" onclick="playNextSong()">
+                <img src="images/6002fc0c51c2ec00048c6c7b.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

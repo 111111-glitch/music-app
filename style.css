@@ -1,0 +1,115 @@
+.top-rectangle {
+    background-color: #721981; /* Set the background color of the rectangle */
+    height: 130px; /* Set the height of the rectangle */
+    width: 100%; /* Make the rectangle full width */
+    position: fixed; /* Fixed position so it stays at the top */
+    top: 0; /* Align the rectangle to the top */
+    left: 0;
+    text-align: center; /* Center the content horizontally */
+    line-height: 100px; /* Center the content vertically */
+    color: #fff; /* Set the text color */
+}
+.bottom-rectangle{
+    background-color: #721981; /* Set the background color of the rectangle */
+    height: 150px; /* Set the height of the rectangle */
+    width: 100%; /* Make the rectangle full width */
+    position: fixed; /* Fixed position so it stays at the top */
+    bottom: 0; /* Align the rectangle to the top */
+    left: 0;
+    text-align: center; /* Center the content horizontally */
+    line-height: 100px; /* Center the content vertically */
+    color: #fff; /* Set the text color */
+}
+.top-rectangle img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-top: 14px;
+}
+.top-rectangle input{
+    color: white;
+    width: 500px;
+    height: 50px;
+    background-color: black;
+    border: none;
+    border-radius: 16px;
+}
+.top-rectangle button img{
+    float: right;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: -60px;
+    bottom: -10px;
+}
+.top-rectangle button{
+    border: none;
+    background: none;
+}
+.lower-rectangle{
+
+    background-color: black; /* Set the background color of the rectangle */
+    height: 150px; /* Set the height of the rectangle */
+    width: 100%; /* Make the rectangle full width */
+    position: relative; /* Fixed position so it stays at the top */
+    bottom: -110px; /* Align the rectangle to the top */
+    left: 0;
+    text-align: center; /* Center the content horizontally */
+    line-height: 100px; /* Center the content vertically */
+    color: #fff; 
+}
+.lower-rectangle P{
+    font-size: 20px;
+    position: relative;
+    bottom: -20px;
+}
+.button {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: none;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    right: -920px;
+    bottom: -40px;
+}
+
+.button img {
+    width: 100%;
+    height: 100%;
+}
+
+#playButton {
+    display: block; 
+}
+
+#pauseButton {
+    display: none; 
+}
+#previousButton img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: none;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    right: -920px;
+    position: relative;
+    right: -700px;
+    top: -7px;
+}
+#nextButton img{
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    background-color: none;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    right: -920px;
+    position: relative;
+    right: -990px;
+    top: -7px; 
+}
